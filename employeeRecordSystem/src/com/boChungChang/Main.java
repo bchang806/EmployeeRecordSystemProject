@@ -5,9 +5,13 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-    	List<Employee> employee = new ArrayList<Employee>(); 
-    	
-    	//Current Employee
+    	List<Employee> employee = new ArrayList<Employee>();  	
+    	loadDefaultEmployee(employee);  	
+    	Menu menu = new Menu();
+    	menu.startMenu(employee);
+    } 
+    
+    public static void loadDefaultEmployee(List<Employee> employee) {
     	Employee john = new Manager("John", "Doe", "john@gamil.com", 100000);
     	employee.add(john);   	
     	Employee peter = new EntryLevelDeveloper("Peter", "Parker", "peter@gamil.com", 50000);
@@ -18,9 +22,5 @@ public class Main {
     	employee.add(gwen);   	
     	Employee mary = new EntryLevelDeveloper("Mary", "Jane", "mary@gamil.com", 50000);
     	employee.add(mary);
-    	//
-    	
-    	Menu menu = new Menu();
-    	menu.startMenu(employee);
-    } 
+    }
 }
