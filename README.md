@@ -1,6 +1,6 @@
 # EmployeeRecordSystemProject
 
-The Employee Record System is used to add, remove, update, check, show employees in the company.
+The Employee Record System is used to add, remove, update, check, show employees from the company.
 
 The purpose of this project is to illustrate the OOPs concepts
 
