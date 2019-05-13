@@ -22,4 +22,4 @@ The for loop is used to search for the employee if his or her first name and las
 
 
 
-![menu](https://user-images.githubusercontent.com/50587307/57640832-6b1ffc00-7581-11e9-8170-ed48579820d2.PNG)
+![menu](https://user-images.githubusercontent.com/50587307/57643595-103dd300-7588-11e9-884e-79f45ea58e1d.PNG)
