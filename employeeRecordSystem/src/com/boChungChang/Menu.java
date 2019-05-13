@@ -111,17 +111,17 @@ public class Menu {
     		employee.add(emp);
     		break;
     	}
-    	System.out.println("Employee Has Been Successfully Added!\n");
+    	System.out.println("An Employee Has Been Successfully Added!\n");
     	return false;
     }
     
     public void showMenu() {
     	System.out.println("**************Menu*****************");
-    	System.out.println("*  1.Add new Employee Record      *");
-    	System.out.println("*  2.Delete Employee Record       *");
-    	System.out.println("*  3.Update Employee Infomation   *");
-    	System.out.println("*  4.Check  Employee              *");
-    	System.out.println("*  5.Output All Employee          *");
+    	System.out.println("*  1.Add a new Employee Record    *");
+    	System.out.println("*  2.Delete an Employee Record    *");
+    	System.out.println("*  3.Update an Employee Record    *");
+    	System.out.println("*  4.Check an Employee Record     *");
+    	System.out.println("*  5.Output All Employee Records  *");
     	System.out.println("*  6.Exit                         *");
     	System.out.println("***********************************");
     }
